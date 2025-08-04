@@ -39,8 +39,8 @@ If you are using Anaconda, install dependencies using ``conda install`` before i
 
 run the following codes in your terminal to install ASDA:
 ```bash
-git clone https://github.com/dreamstar0831/Optimized-ASDA
-cd Optimized ASDA
+git clone https://github.com/dreamstar0831/Optimized_ASDA
+cd Optimized_ASDA
 pip install .
 ```
 Optimized ASDA will be then installed in your default Python environment.
