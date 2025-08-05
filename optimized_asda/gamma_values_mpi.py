@@ -32,8 +32,8 @@ from scipy.interpolate import interp2d
 import getopt
 import sys
 from mpi4py import MPI
-from asda.pyflct import vcimagein, vcimageout
-from asda.vortex import gamma_values, reform2d
+from optimized_asda.pyflct import vcimagein, vcimageout
+from optimized_asda.vortex import gamma_values, reform2d
 
 comm = MPI.COMM_WORLD
 rank = comm.Get_rank()

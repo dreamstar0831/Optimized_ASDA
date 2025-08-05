@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Changelog
 
 **August 2025: v1.0 released.**
@@ -72,7 +73,7 @@ from optimized_asda.vortex import gamma_values, center_edge, vortex_property
 
 ## Demo
 A demo **demo.py** is available with the demo data **demo_data.sav**:
-1. To run the demo, `cd Optimized-ASDA` and run `python demo.py`
+1. To run the demo, `cd Optimized_ASDA` and run `python demo.py`
 2. The demo data consists of the following 4 variables: data0 (SOT Ca II observation at 2007-03-05T05:48:06.737), data1 (SOT Ca II observation at 2007-03-05T05:48:13.138), ds (pixel size of the observations), and dt (time difference in seconds between data0 and data1)
 ### Expected Output
 After running the code, you will see 3 files as the output: **vel_demo.dat** (binary file storing the calculated velocity field, 6MB), **gamma_demo.dat** (binary file storing gamma1 and gamma2, 6MB), and **vortex_demo.npz** (numpy file storing the information of all deteced vortices, 192.9 kB). All the differences printed out should be 0.</br>
@@ -81,3 +82,4 @@ Use `vortex = dict(np.load('vortex_demo.npz'))`, you should see the variable `vo
 ### Expected Running Time
 Once finished, the command line will give the time consumption of the demo code, which should be ~20 seconds on an Intel I7 4.20 GHz CPU.
 
+=======

@@ -19,7 +19,7 @@ __maintainor__ = 'Jiajia Liu'
 __email__ = 'jj.liu@sheffield.ac.uk'
 
 import numpy as np
-from asda.vortex import read_vortex, save_vortex
+from optimized_asda.vortex import read_vortex, save_vortex
 
 def add_rmax(im_path, filename='vortex.npz'):
 

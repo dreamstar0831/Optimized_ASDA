@@ -28,8 +28,8 @@ __email__ = 'xq30@mail.ustc.edu.cn'
 import numpy as np
 from scipy.io import readsav
 from datetime import datetime
-from asda.pyflct import flct, vcimageout, vcimagein
-from asda.vortex import gamma_values, center_edge, vortex_property, read_vortex, save_vortex, gamma_values_parallel
+from optimized_asda.pyflct import flct, vcimageout, vcimagein
+from optimized_asda.vortex import gamma_values, center_edge, vortex_property, read_vortex, save_vortex, gamma_values_parallel
 import os
 import subprocess
 import multiprocessing as mp

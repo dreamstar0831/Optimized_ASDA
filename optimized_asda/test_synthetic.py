@@ -20,9 +20,9 @@ __email__ = 'jj.liu@sheffield.ac.uk'
 
 
 import numpy as np
-from asda.lamb_oseen import Lamb_Oseen
-from asda.pyflct import vcimagein, vcimageout
-from asda.vortex import center_edge, vortex_property
+from optimized_asda.lamb_oseen import Lamb_Oseen
+from optimized_asda.pyflct import vcimagein, vcimageout
+from optimized_asda.vortex import center_edge, vortex_property
 import random
 import os
 import matplotlib.pyplot as plt
