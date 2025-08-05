@@ -66,7 +66,7 @@ if __name__ == '__main__':
     r = 'adaptive' # use variable gamma calculating method (see Xie et al. A&A 2025)
     # Gamma1 and Gamma2
     beg_time = datetime.today() # when you start to run this code
-    (gamma1, gamma2) = gamma_values(vx, vy, factor=factor)
+    (gamma1, gamma2) = gamma_values(vx, vy, r, factor=factor)
     # a parallel version of gamma_values
     #(gamma1, gamma2) = gamma_values_parallel(vx, vy, r=r, factor=factor, ncpus=6)
     # Caculate time consumption

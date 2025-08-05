@@ -20,7 +20,7 @@ Xie, Q, Liu, J., Erdelyi, R, Wang, Y., Improving Γ-functions method for vortex 
 Email: xq30@mail.ustc.edu.cn or ljj128@ustc.edu.cn
 
 # Optimzied ASDA
-Optimized Automatic Swirl Detection Algorithms
+Optimized Automated Swirl Detection Algorithms
 
 ## System Requirements
 ### OS Requirements
