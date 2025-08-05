@@ -30,7 +30,7 @@ __maintainor__ = 'Quan Xie'
 __email__ = 'xq30@mail.ustc.edu.cn'
 
 import numpy as np
-from asda.points_in_poly import points_in_poly
+from optimized_asda.points_in_poly import points_in_poly
 from scipy.interpolate import interp2d
 from itertools import product
 from skimage import measure
