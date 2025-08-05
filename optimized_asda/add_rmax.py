@@ -1,22 +1,31 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Mon Feb 26 14:34:05 2018
+Created on Tue Aug 05 2025
 
 Name: add_rmax.py
 
 Purpose: add the property of rmax into the vortex structure
 
-@author: Jaijia Liu at University of Sheffield
-"""
-__author__ = 'Jiajia Liu'
-__copyright__ = 'Copyright 2017, The Solar Physics and Space Plasma ' + \
+This code is based on code from https://github.com/PyDL/ASDA/blob/master/asda/add_rmax.py
+
+Original license: 'GPLv2'
+Copyright: 'Copyright 2017, The Solar Physics and Space Plasma ' + \
                 'Research Center (SP2RC)'
-__license__ = 'GPLv2'
-__version__ = '1.00'  # consistent with the version of the C code
-__date__ = '2018/02/26'
-__maintainor__ = 'Jiajia Liu'
-__email__ = 'jj.liu@sheffield.ac.uk'
+@author: Jaijia Liu at University of Science and Technology of China      
+          
+Modifications by: Quan Xie, xq30@mail.ustc.edu.cn
+Modified on: 2025-08-05
+Description: revise the file to adapt Optimized ASDA. 
+"""
+
+__author__ = 'Jiajia Liu (modified by Quan Xie)'
+__copyright__ = 'Copyright 2025, University of Sci. & Tech. China'
+__license__ = 'GPLv3'
+__version__ = '1.1.0'
+__date__ = '2025/08/05'
+__maintainor__ = 'Quan Xie'
+__email__ = 'xq30@mail.ustc.edu.cn'
 
 import numpy as np
 from optimized_asda.vortex import read_vortex, save_vortex

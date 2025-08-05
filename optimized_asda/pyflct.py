@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue Dec 5 17:58:29 2017
+Created on Tue Aug 05 2025
 
 Name: pyflct.py
+
+This code is based on code from https://github.com/PyDL/ASDA/blob/master/asda/pyflct.py
 
 Discription: Python wrapper for FLCT code written in C from Fisher & Welsch
              2008. You can download the original C code from the following:
@@ -64,17 +66,23 @@ Outputs:
                not been included when calculating the velocity field.
                Pixels with vm value of 0.5 have interpolated velocity
                field.
-
-@author: Jaijia Liu at University of Sheffield
-"""
-__author__ = 'Jiajia Liu'
-__copyright__ = 'Copyright 2017, The Solar Physics and Space Plasma ' + \
+Original license: 'GPLv2'
+Copyright: 'Copyright 2017, The Solar Physics and Space Plasma ' + \
                 'Research Center (SP2RC)'
+@author: Jaijia Liu at University of Sheffield
+
+
+Modifications by: Quan Xie, xq30@mail.ustc.edu.cn
+Modified on: 2025-08-05
+"""
+
+__author__ = 'Jiajia Liu (modified by Quan Xie)'
+__copyright__ = 'Copyright 2025, University of Sci. & Tech. China'
 __license__ = 'GPLv3'
-__version__ = '2.0'
-__date__ = '2019/11/27'
-__maintainor__ = 'Jiajia Liu'
-__email__ = 'jj.liu@sheffield.ac.uk'
+__version__ = '1.1.0'
+__date__ = '2025/08/05'
+__maintainor__ = 'Quan Xie'
+__email__ = 'xq30@mail.ustc.edu.cn'
 
 import numpy as np
 import struct

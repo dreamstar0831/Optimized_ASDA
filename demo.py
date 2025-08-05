@@ -1,18 +1,21 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Friday Apr 19 2019
+Created on Tuesday Aug 5 2025
 
 Name: demo.py
 
-Purpose: A demo of ASDA and Optimized ASDA
+Purpose: A demo of Optimized ASDA
 
+Original license: 'GPLv2'
+Copyright: 'Copyright 2017, The Solar Physics and Space Plasma ' + \
+                'Research Center (SP2RC)'
 Original Author: [Jiajia Liu]  
 Original Repository: https://github.com/PyDL/ASDA
 
 Modified by: [Quan Xie]  
-Modified Date: 2025-08-04  
-Repository: https://github.com/dreamstar0831/Optimized-ASDA
+Modified Date: 2025-08-05  
+Repository: https://github.com/dreamstar0831/Optimized_ASDA
 
 """
 __author__ = 'Jiajia Liu'
@@ -20,7 +23,7 @@ __copyright__ = 'Original work: Copyright 2019, The Solar Physics and Space Plas
                 'Modeified: Copyright 2025, Quan Xie'
                 
 __license__ = 'GPLv3'
-__date__ = '2025/08/04'
+__date__ = '2025/08/05'
 __maintainor__ = 'Quan Xie'
 __email__ = 'xq30@mail.ustc.edu.cn'
 
@@ -60,7 +63,7 @@ if __name__ == '__main__':
 
     # Perform swirl detection
     factor = 1
-    r = 3
+    r = 'adaptive' # use variable gamma calculating method (see Xie et al. A&A 2025)
     # Gamma1 and Gamma2
     beg_time = datetime.today() # when you start to run this code
     (gamma1, gamma2) = gamma_values(vx, vy, factor=factor)

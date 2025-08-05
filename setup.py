@@ -19,7 +19,7 @@ def main():
         description=("Optimized Automated Swirl Detection Algorithm"),
         license="GPLv3",
         keywords="Optimized ASDA",
-        url="https://github.com/dreamstar0831/Optimized-ASDA",
+        url="https://github.com/dreamstar0831/Optimized_ASDA",
         packages=find_packages(where='.', exclude=(), include=('*',)),
         py_modules=get_py_modules(),
 
@@ -34,7 +34,7 @@ def main():
         ],
 
         classifiers=[
-            "Development Status :: 2.2 - Release",
+            "Development Status :: 1.0 - Release",
             "Topic :: Utilities",
             "License :: OSI Approved :: GNU General Public License (GPL)",
         ],

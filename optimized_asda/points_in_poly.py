@@ -1,14 +1,21 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue Oct 31 14:36:09 2017
+Created on Tue Aug 05 2025
+
+This code is based on code from https://github.com/PyDL/ASDA/blob/master/asda/points_in_poly.py
 
 Inspired by Ulf Aslak's answer in the following link:
     https://stackoverflow.com/questions/21339448/how-to-get
     -list-of-points-inside-a-polygon-in-python
-author: Jiajia Liu @ University of Sheffield
+Original license: 'GPLv2'
+Copyright: 'Copyright 2017, The Solar Physics and Space Plasma ' + \
+                'Research Center (SP2RC)'
+author: Jiajia Liu @ University of Science and Technology of China
 
-Nov 2019: Use scikit-image instead of mahotas, result is slightly different
+Modifications by: Quan Xie, xq30@mail.ustc.edu.cn
+Modified on: 2025-08-05
+Description: revise the file to adapt Optimized ASDA.
 """
 
 import numpy as np

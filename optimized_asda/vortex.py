@@ -9,7 +9,7 @@ Original Repository: https://github.com/PyDL/ASDA
 
 Modified by: [Quan Xie]  
 Modified Date: 2025-08-04  
-Repository: https://github.com/dreamstar0831/Optimized-ASDA
+Repository: https://github.com/dreamstar0831/Optimized_ASDA
 
 Discription: 
         This module is based on the original implementation from Jiajia Liu,
@@ -22,7 +22,7 @@ Discription:
 
 """
 __author__ = 'Jiajia Liu (modified by Quan Xie)'
-__copyright__ = 'Copyright 2023, University of Sci. & Tech. China'
+__copyright__ = 'Copyright 2025, University of Sci. & Tech. China'
 __license__ = 'GPLv3'
 __version__ = '1.1.0'
 __date__ = '2025/08/04'

@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Wed Jan  3 11:16:38 2018
+Created on Tue Aug 05 2025
 
 Name: swirl_lifetime.py
+
+This code is based on the code from https://github.com/PyDL/ASDA/blob/master/asda/swirl_lifetime.py
 
 Purpose: Identify the same swirls in different frames and calculate their
          lifetime
@@ -19,17 +21,22 @@ My own notes:
         3. label3_dmin/info3_dmin/lifetime3_dmin: similar with method 2, but
            use the distance between two swirls' centers to determine whether
            they will have the same label
-
-@author: Jaijia Liu at University of Sheffield
-"""
-__author__ = 'Jiajia Liu'
-__copyright__ = 'Copyright 2017, The Solar Physics and Space Plasma ' + \
+Original license: 'GPLv2'
+Copyright: 'Copyright 2017, The Solar Physics and Space Plasma ' + \
                 'Research Center (SP2RC)'
+@author: Jaijia Liu at University of Science and Technology of China
+
+Modifications by: Quan Xie, xq30@mail.ustc.edu.cn
+Modified on: 2025-08-05 
+"""
+
+__author__ = 'Jiajia Liu (modified by Quan Xie)'
+__copyright__ = 'Copyright 2025, University of Sci. & Tech. China'
 __license__ = 'GPLv3'
-__version__ = '1.0'  # consistent with the version of the C code
-__date__ = '2018/01/03'
-__maintainor__ = 'Jiajia Liu'
-__email__ = 'jj.liu@sheffield.ac.uk'
+__version__ = '1.1.0'
+__date__ = '2025/08/05'
+__maintainor__ = 'Quan Xie'
+__email__ = 'xq30@mail.ustc.edu.cn'
 
 import numpy as np
 from matplotlib.path import Path
