@@ -7,7 +7,7 @@ Name: add_rmax.py
 
 Purpose: add the property of rmax into the vortex structure
 
-This code is based on code from https://github.com/PyDL/ASDA/blob/master/asda/add_rmax.py
+This code is based on code from https://github.com/PyDL/ASDA/blob/master/asda/add_rmax.py.
 
 Original license: 'GPLv2'
 Copyright: 'Copyright 2017, The Solar Physics and Space Plasma ' + \

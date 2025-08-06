@@ -5,7 +5,7 @@ Created on Tue Aug 05 2025
 
 Name: pyflct.py
 
-This code is based on code from https://github.com/PyDL/ASDA/blob/master/asda/pyflct.py
+This code is based on code from https://github.com/PyDL/ASDA/blob/master/asda/pyflct.py.
 
 Discription: Python wrapper for FLCT code written in C from Fisher & Welsch
              2008. You can download the original C code from the following:

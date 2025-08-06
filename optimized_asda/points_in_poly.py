@@ -3,7 +3,7 @@
 """
 Created on Tue Aug 05 2025
 
-This code is based on code from https://github.com/PyDL/ASDA/blob/master/asda/points_in_poly.py
+This code is based on code from https://github.com/PyDL/ASDA/blob/master/asda/points_in_poly.py.
 
 Inspired by Ulf Aslak's answer in the following link:
     https://stackoverflow.com/questions/21339448/how-to-get

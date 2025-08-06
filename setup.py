@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding=utf-8
 # This module is a copy of origin version from Jiajia Liu, https://github.com/PyDL/ASDA.
-# by Quan Xie@University of Science and Technology of China
+# by Quan Xie@University of Science and Technology of China.
 # August 2025
 
 from setuptools import setup, find_packages

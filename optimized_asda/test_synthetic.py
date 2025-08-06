@@ -5,7 +5,7 @@ Created on Tue Aug 05 2025
 
 Name: test_synthetic.py
 
-This code is based on the code from https://github.com/PyDL/ASDA/blob/master/asda/test_synthetic.py
+This code is based on the code from https://github.com/PyDL/ASDA/blob/master/asda/test_synthetic.py.
 
 Purpose: Test synthetic vortices
 

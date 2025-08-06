@@ -5,7 +5,7 @@ Created on Tue Aug 05 2025
 
 Name: swirl_lifetime.py
 
-This code is based on the code from https://github.com/PyDL/ASDA/blob/master/asda/swirl_lifetime.py
+This code is based on the code from https://github.com/PyDL/ASDA/blob/master/asda/swirl_lifetime.py.
 
 Purpose: Identify the same swirls in different frames and calculate their
          lifetime

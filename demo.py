@@ -11,7 +11,7 @@ Original license: 'GPLv2'
 Copyright: 'Copyright 2017, The Solar Physics and Space Plasma ' + \
                 'Research Center (SP2RC)'
 Original Author: [Jiajia Liu]  
-Original Repository: https://github.com/PyDL/ASDA
+Original Repository: https://github.com/PyDL/ASDA.
 
 Modified by: [Quan Xie]  
 Modified Date: 2025-08-05  
