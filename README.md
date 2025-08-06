@@ -76,11 +76,15 @@ from optimized_asda.pyflct import flct, vcimagein
 from optimized_asda.vortex import gamma_values, center_edge, vortex_property
 ```
 2. you need to use the pyflct package to estimate the velocity field connecting the above two images: 
-`vx, vy, vm = flct(data0, data1, 1.0, 1.0, 10, outfile='vel.dat')`. Please notice that, vx, vy and vm are also in **(x, y)** order. Here, vx and vy are the velocity field. Usually, vm are not necessary.</br>
-1. calculate gamma1 and gamma2 values (see the reference) with `gamma1, gamma2 = gamma_values(vx, vy, 'adaptive', factor=1)`, using the variable gamma calculating method. You can calculate gamma1 and gamma2 using a single kernel size (e.g., r=3) with `gamma1, gamma2 = gamma_values(vx, vy, 3, factor=1)`. </br>
-2. perform the detection of vortices using `center, edge, point, peak, radius = center_edge(gamma1, gamma2, factor=1)`. Results are from the threshold of Γ1 = 0.63. center is a list containing the pixel location of all vortices in the image. edge is a list of the edges of all vortices. point is a list of all points within vortices. peak is a list of the peak gamma1 values of all vortices. radius is a list of the effective radii of all vortices.</br>
-3. use `ve, vr, vc, ia = vortex_property(center, edge, points, vx, vy, data0)` to calculate the expanding, rotating, center speeds of above vortices. ia is the average intensity from data0 of all points within each vortex.</br>
-4. **Notice**: radius, ve, vr and vc calculated above are in units of 1. Suppose for data0 and data1, the pixel size is *ds* (in units of actual physical units such as Mm, km, m...) and the time difference of *dt* (in units of second, minute, hour...), then you should use `radius * ds` and `ve * ds / dt`, `vr * ds / dt`, `vc * ds / dt` as your final results.
+    `vx, vy, vm = flct(data0, data1, 1.0, 1.0, 10, outfile='vel.dat')`. Please notice that, vx, vy and vm are also in **(x, y)** order. Here, vx and vy are the velocity field. Usually, vm are not necessary. It is **highly** recommended that users compare FLCT with SUVEL (https://github.com/PyDL/SUVEL)    when detecting velocity fields from **high-resolution** photospheric observations.</br>
+
+3. calculate gamma1 and gamma2 values (see the reference) with `gamma1, gamma2 = gamma_values(vx, vy, 'adaptive', factor=1)`, using the variable gamma calculating method. You can calculate gamma1 and gamma2 using a single kernel size (e.g., r=3) with `gamma1, gamma2 = gamma_values(vx, vy, 3, factor=1)`. </br>
+
+4. perform the detection of vortices using `center, edge, point, peak, radius = center_edge(gamma1, gamma2, factor=1)`. Results are from the threshold of Γ1 = 0.63. center is a list containing the pixel location of all vortices in the image. edge is a list of the edges of all vortices. point is a list of all points within vortices. peak is a list of the peak gamma1 values of all vortices. radius is a list of the effective radii of all vortices.</br>
+
+5. use `ve, vr, vc, ia = vortex_property(center, edge, points, vx, vy, data0)` to calculate the expanding, rotating, center speeds of above vortices. ia is the average intensity from data0 of all points within each vortex.</br>
+
+6. **Notice**: radius, ve, vr and vc calculated above are in units of 1. Suppose for data0 and data1, the pixel size is *ds* (in units of actual physical units such as Mm, km, m...) and the time difference of *dt* (in units of second, minute, hour...), then you should use `radius * ds` and `ve * ds / dt`, `vr * ds / dt`, `vc * ds / dt` as your final results.
 
 ## Demo
 A demo **demo.py** is available with the demo data **demo_data.sav**:
